@@ -1,0 +1,20 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: light;
+}
+
+section.header{
+  height: 80vh;
+  background-image: url("../img/header_bg.jpg");
+  background-repeat: no-repeat;
+}
+
+section.first h1 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+section.first p{
+  font-weight: 600;;
+  font-size: 24px;
+}
