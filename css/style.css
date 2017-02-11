@@ -4,21 +4,94 @@ body{
 }
 
 section.header{
-  height: 25vh;
+  height: 40vh;
   background-image: url("../img/header_bg.jpg");
   background-repeat: no-repeat;
+
 }
 
 section.header h1 {
   font-family: 800;
   font-size: 24px;
+  text-align: left;
+  margin-left: 60px;
 }
 
 section.header p{
   font-weight: 600;;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+}
+section.header h2 {
+  font-family: 800;
   font-size: 24px;
+  background-color: yellow;
+  margin: auto;
+  text-align: center;
+}
+.section.header.box1{
+  height: 20px;
+  width: 60px;
+  color: yellow;
+}
+section.benefits{
+  height: 60vh;
+  background-color: #f0efef;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-bottom: auto;
 }
 
-section.benefits{
-  background-color: #f0efef;
+section.benefits h1{
+margin-left: 60px;
+}
+section.benefits p{
+margin-left: 60px;
+}
+section.benefits ul{
+margin-left: 60px;
+}
+
+section.quote{
+  height: 50vh;
+  background-color: #033048;
+  background-repeat: no-repeat;
+  display: flex;
+}
+section.quote p{
+text-align: center;
+color: white;
+margin: auto;
+font-size: 13px;
+font-weight: lighter;
+}
+
+section.sign{
+  height: 10vh;
+  background-color: yellow;
+  background-repeat: no-repeat;
+  display: flex;
+}
+section.sign h2{
+text-align: center;
+color: white;
+margin: auto;background-color: blue;
+
+}
+
+section.footer{
+  height: 20vh;
+  background-color: #121212;
+  background-repeat: no-repeat;
+  display: flex;
+}
+section.footer h1{
+text-align: center;
+color: yellow;
+margin: auto;
+}
+section.footer img{
+  justify-content: center;
+  align-items: baseline;
 }
